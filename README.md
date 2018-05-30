@@ -1,4 +1,4 @@
-# vue-webpack-simple
+# learn Vue AOT compilation with webpack
 
 Based on [vue-webpack-simple](https://github.com/vuejs-templates/webpack-simple) template.
 
@@ -9,6 +9,12 @@ I tweak it and make it **emit readable bundle(build.js) and serve it from disk**
 If you want to play with **Angular** like this, check out [angular-aot-demo-with-ngc-webpack](https://github.com/csr632/angular-aot-demo-with-ngc-webpack).
 
 ## command
+```bash
+yarn install
+## or
+npm install
+```
+Install the dependency first.
 
 ``` bash
 npm run build:dev
@@ -18,7 +24,7 @@ Build the project. Your code (after transform) will be in `dist/build.js`. Vue a
 ``` bash
 npm run build:watch
 ```
-Like the last command. But it wait for file changes and re-build.
+Just like `npm run build:dev`. But it wait for file changes and re-build automatically.
 
 ``` bash
 npm run serve
